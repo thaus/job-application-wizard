@@ -14,6 +14,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "paths": {
       "@job-application-wizard/personal-info/feature-create": [
         "libs/personal-info/feature-create/src/index.ts"
       ],
@@ -32,6 +33,25 @@
       "@job-application-wizard/personal-info/utils": [
         "libs/personal-info/utils/src/index.ts"
       ],
+      "@job-application-wizard/professional-experience": [
+        "libs/professional-experience/src/index.ts"
+      ],
+      "@job-application-wizard/professional-experience/data-access": [
+        "libs/professional-experience/data-access/src/index.ts"
+      ],
+      "@job-application-wizard/professional-experience/models": [
+        "libs/professional-experience/models/src/index.ts"
+      ],
+      "@job-application-wizard/professional-experience/routes": [
+        "libs/professional-experience/routes/src/index.ts"
+      ],
+      "@job-application-wizard/professional-experience/ui": [
+        "libs/professional-experience/ui/src/index.ts"
+      ],
+      "@job-application-wizard/professional-experience/utils": [
+        "libs/professional-experience/utils/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
